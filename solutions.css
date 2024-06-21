@@ -53,3 +53,13 @@
 .ex-7-img:hover {
     filter: opacity(.5) sepia(20%);
 }
+
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(50%);
+    border-radius: 50px;
+}
+
