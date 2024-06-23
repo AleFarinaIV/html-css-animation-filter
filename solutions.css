@@ -100,3 +100,39 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: move_Top_White 2s linear infinite;
+}
+
+@keyframes move_Top_White {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 60%
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move_Bottom_White 2s linear infinite;
+}
+
+@keyframes move_Bottom_White {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 60%
+    }
+
+    100% {
+        right: 20%;
+    }
+}
