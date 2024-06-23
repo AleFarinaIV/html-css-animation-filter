@@ -176,7 +176,6 @@
 
 .ex-13-button:hover .ex-13-bottom-white {
     animation: move_Bottom_White 2s linear infinite;
-    background-color: red;
 }
 
 @keyframes move_Bottom_White {
